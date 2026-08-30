@@ -7,4 +7,4 @@ Here you will find:
 
 ### Bookmark collections
 
-Visit the [Wiki](https://github.com/gammalambda7/home/wiki) tab for my favorite bookmarks of the Internet. Happy surfing!
+Visit the [Wiki](https://github.com/gammalambda7/home/wiki) tab for my favorite bookmarks browsing the Internet. Enjoy surfing!
