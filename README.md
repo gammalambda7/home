@@ -1,2 +1,5 @@
-# home
+# Home
 Cosy home on Github!
+
+---
+
