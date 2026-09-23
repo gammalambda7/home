@@ -1,5 +1,5 @@
 # Optimization of Windows Performance / Run Speed on Low-spec Devices
-20260923
+20260923-WED-1600
 
 ## Purpose
 Recording and sharing my own optimization method to run Windows 10/11 more smoothly on low-spec devices, like the ones with 8 GB or even 4 GB RAM, and low-tier CPU.
