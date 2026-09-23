@@ -1,4 +1,4 @@
-# Optimization of Windows on Low-spec Devices
+# Optimization of Windows Performance / Run Speed on Low-spec Devices
 20260923
 
 ## Purpose
