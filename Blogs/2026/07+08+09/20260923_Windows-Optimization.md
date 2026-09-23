@@ -33,5 +33,5 @@ Note: Limit the number of extensions to install
 
 ### Disable unwanted services
 
-Win + R or Win + S > Run <code>services.msc</code> and proceed as needed
+<code>Win + R</code> or <code>Win + S</code> > Run <code>services.msc</code> and proceed as needed
 
