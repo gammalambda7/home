@@ -27,3 +27,11 @@ Note: Limit the number of extensions to install
 
 ### My-Computer / This-PC: right-click-menu > Properties >
 <img width="1144" height="963" alt="image" src="https://github.com/user-attachments/assets/b07a7159-982f-490c-99e9-b52453d669b4" />
+
+### Disable unwanted startup programs
+<img width="887" height="326" alt="image" src="https://github.com/user-attachments/assets/36f9d9a1-840b-415a-802a-bfccece8dc69" />
+
+### Disable unwanted services
+
+Run <code>services.msc</code>
+
