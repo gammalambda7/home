@@ -24,3 +24,6 @@ Note: Limit the number of extensions to install
 ### Use [FreeOffice](https://www.freeoffice.com/en/download/applications) instead of MS Office
 
 ### Use [RaiDrive](https://www.raidrive.com/download) instead of individual cloud sync services
+
+### My Computer/This PC --right-click > Properties >
+<img width="1144" height="963" alt="image" src="https://github.com/user-attachments/assets/b07a7159-982f-490c-99e9-b52453d669b4" />
