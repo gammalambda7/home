@@ -15,6 +15,7 @@ irm christitus.com/win | iex
 
 ### Use [Thorium](https://github.com/Alex313031/Thorium-Win/releases) instead of Chrome
 Note: Thorium can sync with a Google account for everything Chrome syncs.
+
 Note: Limit the number of extensions to install
 
 ### Use [Huorong](https://huorong.cn/person) instead of Windows Defender
