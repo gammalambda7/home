@@ -33,5 +33,5 @@ Note: Limit the number of extensions to install
 
 ### Disable unwanted services
 
-Run <code>services.msc</code>
+Run <code>services.msc</code> and proceed as needed
 
