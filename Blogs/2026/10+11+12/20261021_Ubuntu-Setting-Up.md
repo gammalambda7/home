@@ -1,6 +1,6 @@
-# Setting Up Ubuntu After Installation
+# Setting Up Ubuntu After Fresh Installation
 
-20261021-Wed // V1
+20261021-Wed-1120 // V1
 
 ## Packages to install
 
@@ -42,3 +42,11 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 reboot
 ~~~
 
+### Synaptic
+
+~~~bash
+sudo add-apt-repository universe
+sudo apt update
+
+sudo apt install synaptic
+~~~
