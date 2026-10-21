@@ -4,7 +4,7 @@
 
 ## Packages to install
 
-A redundant reminder of common sense: Do `sudo apt update` before installation.
+A redundant reminder of common sense: Do `sudo apt update` before installation session.
 
 ### FUSE
 // FUSE support for running AppImage
