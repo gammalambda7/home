@@ -46,7 +46,7 @@ reboot
 
 ~~~bash
 sudo add-apt-repository universe
-sudo apt update
+sudo apt update # Do these two lines only when the "Universe" repo is missing. This is not common.
 
 sudo apt install synaptic
 ~~~
