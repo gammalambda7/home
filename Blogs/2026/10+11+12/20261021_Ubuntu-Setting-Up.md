@@ -2,7 +2,7 @@
 
 20261021-Wed-1120 // V1
 
-## Packages to install
+## Installing Software Package Management Tools
 
 A redundant reminder of common sense: Do `sudo apt update` before installation session.
 
