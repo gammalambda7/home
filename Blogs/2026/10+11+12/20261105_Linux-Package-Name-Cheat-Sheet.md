@@ -22,22 +22,28 @@
 
 ### GNOME
 
-File Manager
+File Manager <br>
+
 `example-package-name` // Program / program function in brief
 
-Terminal
+Terminal <br>
+
 `example-package-name` // Program / program function in brief
 
-Text editor
+Text editor <br>
+
 `example-package-name` // Program / program function in brief
 
 ### KDE-Plasma
 
-File Manager
+File Manager <br>
+
 `example-package-name` // Program / program function in brief
 
-Terminal
+Terminal <br>
+
 `example-package-name` // Program / program function in brief
 
-Text editor
+Text editor <br>
+
 `example-package-name` // Program / program function in brief
