@@ -4,7 +4,7 @@
 
 ## `flatpak` Flathub repo
 
-`example-package-name` // Program / program function in brief
+Brave `com.brave.Browser` // Brave browser
 
 ## `apt` repo
 
