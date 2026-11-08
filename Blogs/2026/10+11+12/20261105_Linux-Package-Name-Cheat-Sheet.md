@@ -5,8 +5,8 @@
 ## `flatpak` Flathub repo
 
 ~~~bash
-$ flatpak install flathub package.name.Case.Sensitive
-$ flatpak run package.name.Case.Sensitive
+$ flatpak install flathub package.Name
+$ flatpak run package.Name
 ~~~
 <br>
 
