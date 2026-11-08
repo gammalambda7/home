@@ -4,6 +4,11 @@
 
 ## `flatpak` Flathub repo
 
+~~~bash
+$ flatpak install flathub package.name.Case.Sensitive
+~~~
+<br>
+
 Brave `com.brave.Browser` // Brave browser
 
 ## `apt` repo
