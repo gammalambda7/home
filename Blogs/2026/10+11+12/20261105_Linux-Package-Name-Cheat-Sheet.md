@@ -6,6 +6,7 @@
 
 ~~~bash
 $ flatpak install flathub package.name.Case.Sensitive
+$ flatpak run package.name.Case.Sensitive
 ~~~
 <br>
 
