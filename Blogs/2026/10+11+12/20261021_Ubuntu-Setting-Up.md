@@ -64,7 +64,7 @@ sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle o
 
 ### Name of Extensions
 
-`Top Bar Organizer` by June // Move items on the top bar
+`Top Bar Organizer` by June OR `Top Bar Organizer Plus` by ShibasishPaul // Move items on the top bar
 
 `Apps Menu` by fmuellner // Adds a categorized program menu on the top bar
 
