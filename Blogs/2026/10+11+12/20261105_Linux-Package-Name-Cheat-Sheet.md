@@ -29,9 +29,9 @@ Chrome
 
 GNOME Extension Manager
 
-|---- `gnome-extensions-app` // This is the package name you can run from the terminal; use this package name to install gnome extension manager in some linux distros, like Rocky Linux
+|---- `gnome-extensions-app` // Command to run from the terminal; use this package name to install in some linux distros, like Rocky Linux
 
-|---- `gnome-shell-extension-manager`; `gnome-shell-extensions` (with some pre-packaged bundle of extensions) // Install gnome extension manager in Ubuntu using these package names
+|---- `gnome-shell-extension-manager`; `gnome-shell-extensions` (with some pre-packaged bundle of extensions) // Install it in Ubuntu using these package names
 
 |---- .flatpak `com.mattjakeman.ExtensionManager`
 
@@ -39,7 +39,7 @@ GNOME Tweaks `gnome-tweaks`
 
 Terminal: Powershell
 
-|---- `pwsh` // Command to launch Powershell
+|---- `pwsh` // Command to launch it
 
 |---- Installation
 
