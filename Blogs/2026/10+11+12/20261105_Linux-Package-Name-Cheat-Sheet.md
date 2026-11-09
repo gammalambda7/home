@@ -17,7 +17,7 @@ $ flatpak run package.Name
 
 ### Browsers
 
-Brave .Flathub `com.brave.Browser`
+Brave .flatpak `com.brave.Browser`
 
 ### System Utilities
 
