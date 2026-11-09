@@ -31,4 +31,6 @@ GNOME Extension Manager
 
 |---- .flatpak `com.mattjakeman.ExtensionManager`
 
+GNOME Tweaks `gnome-tweaks`
+
 Terminal: Ptyxis `ptyxis` // Default console program in Rocky Linux 10
