@@ -1,4 +1,4 @@
-# Setting Up Ubuntu After Fresh Installation
+# Setting Up Ubuntu-based OS After Fresh Installation
 
 20261021-Wed-1120 // V1
 
@@ -51,6 +51,12 @@ sudo apt update # Do these two lines only when the "Universe" repo is missing. T
 sudo apt install synaptic
 ~~~
 
+### Snapd
+
+~~~bash
+sudo apt install snapd
+sudo snap install core
+~~~
 
 ## Installing GNOME extensions (for GNOME DE only)
 
