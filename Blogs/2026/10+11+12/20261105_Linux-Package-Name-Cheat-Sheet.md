@@ -2,7 +2,9 @@
 
 20261105-Thu-1010 // V1
 
-## `flatpak` Flathub repo
+## General Installation Method
+
+### Programs from Flathub
 
 ~~~bash
 $ flatpak install flathub package.Name
@@ -10,46 +12,15 @@ $ flatpak run package.Name
 ~~~
 <br>
 
-Brave `com.brave.Browser` // Brave browser
 
-## `apt` repo
+## List of Packages
 
-`example-package-name` // Program / program function in brief
+### Browsers
 
-## `dnf` repo
+Brave .Flathub `com.brave.Browser`
 
-`example-package-name` // Program / program function in brief
+### System Utilities
 
-## `pacman` repo
+GNOME Extension Manager .apt `gnome-shell-extension-manager`
 
-`example-package-name` // Program / program function in brief
-
-## Desktop-specific
-
-### GNOME
-
-File Manager <br>
-
-`example-package-name` // Program / program function in brief
-
-Terminal <br>
-
-`example-package-name` // Program / program function in brief
-
-Text editor <br>
-
-`example-package-name` // Program / program function in brief
-
-### KDE-Plasma
-
-File Manager <br>
-
-`example-package-name` // Program / program function in brief
-
-Terminal <br>
-
-`example-package-name` // Program / program function in brief
-
-Text editor <br>
-
-`example-package-name` // Program / program function in brief
+GNOME Extension Manager .dnf `gnome-extension-app`
