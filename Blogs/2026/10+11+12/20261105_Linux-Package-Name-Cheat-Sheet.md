@@ -26,3 +26,5 @@ GNOME Extension Manager `gnome-shell-extension-manager`; `gnome-shell-extensions
 GNOME Extension Manager .RockyLinux `gnome-extension-app`
 
 GNOME Extension Manager .flatpak `com.mattjakeman.ExtensionManager`
+
+Terminal: Ptyxis `ptyxis` // Default console program in Rocky Linux 10
