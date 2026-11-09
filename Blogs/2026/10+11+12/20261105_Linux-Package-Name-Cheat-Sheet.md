@@ -37,4 +37,22 @@ GNOME Extension Manager
 
 GNOME Tweaks `gnome-tweaks`
 
+Terminal: Powershell
+
+|---- `pwsh` // Command to launch Powershell
+
+|---- Installation
+
+~~~bash
+# Install through Snapd:
+sudo snap install powershell --classic
+
+# Install in Fedora:
+sudo rpm -Uvh https://microsoft.com    # Register the Microsoft repository
+sudo dnf install powershell
+
+# Install in Arch Linux:
+yay -S powershell-bin    # Powershell is already available in AUR
+~~~
+
 Terminal: Ptyxis `ptyxis` // Default console program in Rocky Linux 10
