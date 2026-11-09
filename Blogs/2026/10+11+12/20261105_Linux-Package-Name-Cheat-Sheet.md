@@ -21,6 +21,8 @@ Brave .flatpak `com.brave.Browser`
 
 ### System Utilities
 
-GNOME Extension Manager .apt `gnome-shell-extension-manager`
+GNOME Extension Manager `gnome-shell-extension-manager`; `gnome-shell-extensions` (with some pre-packaged bundle of extensions)
 
-GNOME Extension Manager .dnf `gnome-extension-app`
+GNOME Extension Manager .RockyLinux `gnome-extension-app`
+
+GNOME Extension Manager .flatpak `com.mattjakeman.ExtensionManager`
