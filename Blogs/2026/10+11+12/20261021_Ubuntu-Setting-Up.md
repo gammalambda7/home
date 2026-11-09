@@ -64,5 +64,13 @@ sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle o
 
 ### Name of Extensions
 
-`Apps Menu` // Adds a categorized program menu on the top bar
-``
+`Top Bar Organizer` by June // Move items on the top bar
+
+`Apps Menu` by fmuellner // Adds a categorized program menu on the top bar
+
+`Places Status Indicator` by fmuellner // Adds a places (location) menu on the top bar
+
+`System Monitor` by fmuellner // Monitor CPU, RAM, SWAP, netspeed from the top bar
+
+`Command Menu 2` by goldentree1 // Adds highly-customizable menus on the top bar
+
