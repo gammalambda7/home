@@ -50,3 +50,19 @@ sudo apt update # Do these two lines only when the "Universe" repo is missing. T
 
 sudo apt install synaptic
 ~~~
+
+
+## Installing GNOME extensions (for GNOME DE only)
+
+~~~bash
+sudo apt install gnome-shell-extension-manager
+
+OR
+
+sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle of extensions
+~~~
+
+### Name of Extensions
+
+`Apps Menu` // Adds a categorized program menu on the top bar
+``
