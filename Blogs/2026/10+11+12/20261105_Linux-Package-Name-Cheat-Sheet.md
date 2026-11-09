@@ -17,14 +17,18 @@ $ flatpak run package.Name
 
 ### Browsers
 
-Brave .flatpak `com.brave.Browser`
+Brave
+
+|---- .flatpak `com.brave.Browser`
 
 ### System Utilities
 
-GNOME Extension Manager `gnome-shell-extension-manager`; `gnome-shell-extensions` (with some pre-packaged bundle of extensions)
+GNOME Extension Manager
 
-GNOME Extension Manager .RockyLinux `gnome-extension-app`
+|---- `gnome-shell-extension-manager`; `gnome-shell-extensions` (with some pre-packaged bundle of extensions)
 
-GNOME Extension Manager .flatpak `com.mattjakeman.ExtensionManager`
+|---- .RockyLinux `gnome-extensions-app`
+
+|---- .flatpak `com.mattjakeman.ExtensionManager`
 
 Terminal: Ptyxis `ptyxis` // Default console program in Rocky Linux 10
