@@ -21,6 +21,10 @@ Brave
 
 |---- .flatpak `com.brave.Browser`
 
+Chrome
+
+|---- .flatpak `com.google.Chrome`
+
 ### System Utilities
 
 GNOME Extension Manager
