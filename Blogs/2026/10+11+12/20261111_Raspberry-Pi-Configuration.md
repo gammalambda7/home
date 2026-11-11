@@ -1,4 +1,4 @@
-# Configure the Raspberry Pi Desktop OS
+# Configure the Raspberry Pi, especially the Desktop OS
 20261111-WED-0758 // V1
 
 ## Purpose
