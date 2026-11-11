@@ -75,7 +75,7 @@ Note: If there are already other settings, just copy the `<setting>value</settin
 
 I cannot make it work to press the power button or close the lid to suspend.
 
-Workaround is just use the command in terminal:
+The workaround (or not at all) is just using the following command in the terminal:
 
 ~~~bash
 systemctl suspend
