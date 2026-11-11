@@ -26,7 +26,7 @@ Note: No GUI configuration exists for the following settings, as of the date of 
 
 Note: Adjusting the bare-minimal mouse config through the GUI ("Control Centre", command: rpcc) disrupts the following procedure, which will have to be redone afterwards.
 
-Open the configuration file in the terminal:
+- Open the configuration file in the terminal:
 
 ~~~bash
 # Create the Directory and Copy the Template, if rc.xml does not exist in ~/.config/labwc/
@@ -40,7 +40,7 @@ cp /etc/xdg/labwc/rc.xml ~/.config/labwc/rc.xml
 nano ~/.config/labwc/rc.xml
 ~~~
 
-Update the <libinput> Section (choose one set of settings)
+- Update the <libinput> Section (choose one set of settings)
 
 ~~~xml
   <libinput>
@@ -70,6 +70,13 @@ ____|----"clickfinter": Right click by two-finger click of the touchpad<br>
 ____|----"buttonAreas": Right click by click the lower right corner of the touchpad<br>
 
 Note: If there are already other settings, just copy the `<setting>value</setting>` block inside the `<libinput><device category="default">...</device></libinput>` section
+
+- Apply Changes (after saving the `rc.xml`, of course)
+
+~~~bash
+labwc --reconfigure
+~~~
+
 
 ### Put system to sleep (suspend)
 
