@@ -22,7 +22,7 @@ ____|---- Debian version	13 (trixie) <br>
 
 ### Touchpad configuration
 
-Note: No GUI configuration exists.
+Note: No GUI configuration exists for the following settings, as of the date of update.
 
 Note: Adjusting the bare-minimal mouse config through the GUI ("Control Centre", command: rpcc) disrupts the following procedure, which will have to be redone afterwards.
 
@@ -41,13 +41,6 @@ nano ~/.config/labwc/rc.xml
 ~~~
 
 Update the <libinput> Section (choose one set of settings)
-
-Note: <br>
-____clickMethod: <br>
-____|----clickfinter: Right click by two-finger click of the touchpad<br>
-____|----buttonAreas: Right click by click the lower right corner of the touchpad<br>
-
-Note: If there are already other settings, just copy the `<setting>value</setting>` block inside the `<libinput><device category="default">...</device></libinput>` section
 
 ~~~xml
   <libinput>
@@ -69,4 +62,21 @@ OR
       <scrollMethod>twofinger</scrollMethod>
     </device>
   </libinput>
+~~~
+
+Note: <br>
+____clickMethod: <br>
+____|----"clickfinter": Right click by two-finger click of the touchpad<br>
+____|----"buttonAreas": Right click by click the lower right corner of the touchpad<br>
+
+Note: If there are already other settings, just copy the `<setting>value</setting>` block inside the `<libinput><device category="default">...</device></libinput>` section
+
+### Put system to sleep (suspend)
+
+I cannot make it work to press the power button or close the lid to suspend.
+
+Workaround is just use the command in terminal:
+
+~~~bash
+systemctl suspend
 ~~~
