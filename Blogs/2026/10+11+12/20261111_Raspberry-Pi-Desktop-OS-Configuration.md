@@ -26,3 +26,47 @@ Note: No GUI configuration exists.
 
 Note: Adjusting the bare-minimal mouse config through the GUI ("Control Centre", command: rpcc) disrupts the following procedure, which will have to be redone afterwards.
 
+Open the configuration file in the terminal:
+
+~~~bash
+# Create the Directory and Copy the Template, if rc.xml does not exist in ~/.config/labwc/
+# This is optional but recommended
+
+mkdir -p ~/.config/labwc
+cp /etc/xdg/labwc/rc.xml ~/.config/labwc/rc.xml
+
+# Open the configuration
+
+nano ~/.config/labwc/rc.xml
+~~~
+
+Update the <libinput> Section (choose one set of settings)
+
+Note: <br>
+____clickMethod: <br>
+____|----clickfinter: Right click by two-finger click of the touchpad<br>
+____|----buttonAreas: Right click by click the lower right corner of the touchpad<br>
+
+Note: If there are already other settings, just copy the `<setting>value</setting>` block inside the `<libinput><device category="default">...</device></libinput>` section
+
+~~~xml
+  <libinput>
+    <device category="default">
+      <clickMethod>clickfinger</clickMethod>
+      <tap>no</tap>
+      <scrollMethod>edge</scrollMethod>
+    </device>
+  </libinput>
+~~~
+
+OR
+
+~~~xml
+  <libinput>
+    <device category="default">
+      <clickMethod>buttonAreas</clickMethod>
+      <tap>yes</tap>
+      <scrollMethod>twofinger</scrollMethod>
+    </device>
+  </libinput>
+~~~
