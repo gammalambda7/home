@@ -142,7 +142,9 @@ fcitx5-configtool
 # `Ctrl + Space` for input switch
 ~~~
 
-### Quick comparison (Credit: Gemini)
+### Quick comparison
+
+> (Credit: Gemini, 202611131753)
 
 | Feature               | IBus (`ibus-libpinyin`)                           | Fcitx5 (`fcitx5-chinese-addons`)                                                |
 | --------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
