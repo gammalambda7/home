@@ -80,3 +80,31 @@ sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle o
 
 `Command Menu 2` by goldentree1 // Adds highly-customizable menus on the top bar
 
+## Setting the default app
+
+### Default browser
+
+~~~bash
+# Using Thorium-Shell browser as an example:
+
+xdg-settings set default-web-browser thorium-shell.desktop
+~~~
+
+Additional commands for reference:
+
+~~~bash
+# Check to verify the default browser:
+
+xdg-settings get default-web-browser
+~~~
+
+~~~bash
+# Search for the .desktop file name
+# (replace 'keyword' with the actual search entry, e.g., 'thorium',
+# or, 'chrome|firefox|brave|edge|opera|vivaldi|chromium|tor|waterfox|librewolf|browser')
+
+ls /usr/share/applications \
+ /var/lib/snapd/desktop/applications \
+ /var/lib/flatpak/exports/share/applications \
+ ~/.local/share/applications 2>/dev/null | grep -iE 'keyword'
+~~~
