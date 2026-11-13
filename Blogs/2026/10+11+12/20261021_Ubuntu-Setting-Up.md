@@ -80,6 +80,8 @@ sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle o
 
 `Command Menu 2` by goldentree1 // Adds highly-customizable menus on the top bar
 
+`Battery time` by pomoke // Show battery remaining time in the Quick Settings menu, replacing the battery percentage (duplicated with the percentage already on the top bar)
+
 ## Setting the default app
 
 ### Default browser
