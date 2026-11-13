@@ -110,3 +110,20 @@ ls /usr/share/applications \
  /var/lib/flatpak/exports/share/applications \
  ~/.local/share/applications 2>/dev/null | grep -iE 'keyword'
 ~~~
+
+## Setting up individual apps
+
+### Snipaste
+
+The AppImage version of Snipaste does not seem to consistently monitor keyboard shortcuts.
+
+To use Snipate with keyboard shortcuts,
+
+Set a custom shortcut in Settings:
+
+|---- Command: `/path/to/program/Snipaste.AppImage snip`
+
+|---- Name: `Snipaste` (as an example)
+
+|---- Shortcut: `Shift + Ctrl + Alt + S` (suggested)
+
