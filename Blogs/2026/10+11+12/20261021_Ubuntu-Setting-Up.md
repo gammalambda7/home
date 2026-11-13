@@ -113,7 +113,7 @@ ls /usr/share/applications \
 
 ## Setting up additional input method
 
-Choose between `IBus` (simple, easy; recommended) or `Fcitx5` (advanced, esp. for CJK)
+Choose between `IBus` (simple, easy; native to GNOME; recommended) or `Fcitx5` (advanced, esp. for CJK; native to KDE Plasma)
 
 ### IBus
 
@@ -142,6 +142,17 @@ fcitx5-configtool
 # `Ctrl + Space` for input switch
 ~~~
 
+### Quick comparison (Credit: Gemini)
+
+| Feature               | IBus (`ibus-libpinyin`)                           | Fcitx5 (`fcitx5-chinese-addons`)                                                |
+| --------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
+|  |
+| Default Status        | Pre-installed on standard Ubuntu (GNOME).         | Requires manual installation and setup.                                         |
+| Desktop Integration   | Native GNOME top bar and lock screen support.     | Native to KDE Plasma; requires extensions on GNOME.                             |
+| Wayland Support       | Seamless out-of-the-box support.                  | Good support, though sometimes requires extra environment flags.                |
+| Typing & Dictionaries | Basic local dictionary and word prediction.       | Supports custom dictionaries (`.dict`), cloud Pinyin, and better phrase memory. |
+| Customization         | Minimal UI options; follows system theme.         | Highly customizable skins, font sizes, and candidate window layouts.            |
+| App Compatibility     | Works reliably across GTK, Qt, and Electron apps. | Works well everywhere, though occasionally needs env variables for older apps.  |
 
 ## Setting up individual apps
 
