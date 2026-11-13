@@ -111,6 +111,38 @@ ls /usr/share/applications \
  ~/.local/share/applications 2>/dev/null | grep -iE 'keyword'
 ~~~
 
+## Setting up additional input method
+
+Choose between `IBus` (simple, easy; recommended) or `Fcitx5` (advanced, esp. for CJK)
+
+### IBus
+
+~~~bash
+sudo apt install ibus-libpinyin
+
+# Log out and log back in before going to
+# `Settings` > `Keyboard` > `Add Input Source` > `...` > `other` > `Inteligent Pinyin`
+# Double pinyin available in input setting
+# `Super + Space` for input switch
+~~~
+
+### Fcitx5
+
+~~~bash
+sudo apt install fcitx5 fcitx5-config-qt fcitx5-chinese-addons
+
+# Set Fcitx5 as the default input system:
+im-config -n fcitx5
+
+# Need to log out and then back in
+
+# Open the configuration tool
+fcitx5-configtool
+
+# `Ctrl + Space` for input switch
+~~~
+
+
 ## Setting up individual apps
 
 ### Snipaste
