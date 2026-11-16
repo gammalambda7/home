@@ -76,11 +76,13 @@ sudo apt install gnome-shell-extensions ## Comes with some pre-packaged bundle o
 
 `Places Status Indicator` by fmuellner // Adds a places (location) menu on the top bar
 
-`System Monitor` by fmuellner // Monitor CPU, RAM, SWAP, netspeed from the top bar
+`System Monitor` by fmuellner // Monitors CPU, RAM, SWAP, netspeed from the top bar
 
 `Command Menu 2` by goldentree1 // Adds highly-customizable menus on the top bar
 
-`Battery time` by pomoke // Show battery remaining time in the Quick Settings menu, replacing the battery percentage (duplicated with the percentage already on the top bar)
+`Battery time` by pomoke // Shows battery remaining time in the Quick Settings menu, replacing the battery percentage (duplicated with the percentage already on the top bar)
+
+`Workspaces indicator by open apps` by Favo02 // Shows opened apps on the top bar. Note: Its position on the top bar is handled by its own setting. This extension does not show up in the `Top Bar Organizer`.
 
 ## Setting the default app
 
