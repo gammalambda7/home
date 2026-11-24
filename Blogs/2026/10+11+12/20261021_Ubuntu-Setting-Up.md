@@ -2,6 +2,23 @@
 
 20261021-Wed-1120 // V1
 
+## Set Ubuntu to Local Time
+This is to fix dual-boot time jumps between Ubuntu and Windows, if applicable
+
+~~~bash
+timedatectl set-local-rtc 1 --adjust-system-clock    # --adjust-system-clock is optional
+
+timedatectl    # check if `RTC in local TZ:` = yes
+
+# reboot is required
+~~~
+
+Alternatively, set Windows to UTC:
+
+~cmd
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /t REG_DWORD /d 1 /f
+~
+
 ## Installing Software Package Management Tools
 
 A redundant reminder of common sense: Do `sudo apt update` before installation session.
