@@ -15,9 +15,9 @@ timedatectl    # check if `RTC in local TZ:` = yes
 
 Alternatively, set Windows to UTC:
 
-~cmd
+~~~cmd
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /t REG_DWORD /d 1 /f
-~
+~~~
 
 ## Installing Software Package Management Tools
 
@@ -174,6 +174,35 @@ fcitx5-configtool
 | Typing & Dictionaries | Basic local dictionary and word prediction.       | Supports custom dictionaries (`.dict`), cloud Pinyin, and better phrase memory. |
 | Customization         | Minimal UI options; follows system theme.         | Highly customizable skins, font sizes, and candidate window layouts.            |
 | App Compatibility     | Works reliably across GTK, Qt, and Electron apps. | Works well everywhere, though occasionally needs env variables for older apps.  |
+
+## Install Microsoft core fonts
+
+### The standard way
+to get Microsoft fonts on Ubuntu-based systems,
+installing  the core TrueType fonts package (includes Arial, Times New Roman, Verdana, Courier New, and more)
+
+~~~bash
+sudo add-apt-repository multiverse
+sudo apt update
+sudo apt install ttf-mscorefonts-installer
+
+# Accept the EULA license prompt:
+# use the Tab key to highlight OK, press Enter,
+# then highlight Yes and press Enter.
+
+sudo fc-cache -f -v    # Refresh the font cache so applications recognize the new fonts right away
+~~~
+
+But this only covers classic core fonts and does not include newer Microsoft Office fonts 
+like Calibri or Cambria. Continue doing the folloiwng:
+
+### Add extra .ttf or .otf font files manually
+
+Copy the font files from a Windows machine (`C:\Windows\Fonts`) or a downloaded archive into your local fonts folder (`~/.local/share/fonts/`), 
+
+then `fc-cache -f -v`,
+
+Verify installed fonts with `fc-list` or open LibreOffice Writer to check the font dropdown.
 
 ## Setting up individual apps
 
