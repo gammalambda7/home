@@ -20,7 +20,7 @@ Thorium ([AMD64](https://github.com/Alex313031/Thorium-Win/releases), [ARM64](ht
 
 [Huorong](https://huorong.cn/)
 
-### System Utilities
+### System Utility
 
 [OpenShell](https://github.com/Open-Shell/Open-Shell-Menu) |
 [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) |
