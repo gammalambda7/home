@@ -24,5 +24,6 @@ Thorium ([AMD64](https://github.com/Alex313031/Thorium-Win/releases), [ARM64](ht
 
 [OpenShell](https://github.com/Open-Shell/Open-Shell-Menu) |
 [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) |
+[Everything](https://www.voidtools.com/downloads/) |
 [PowerToys](https://github.com/microsoft/PowerToys/)
 
